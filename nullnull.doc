@@ -1,0 +1,131 @@
+Table name:admins
+------------------------------------------------------------
+    un                        pwd                   
+------------------------------------------------------------
+    admin     
+------------------------------------------------------------
+Table name:bids
+------------------------------------------------------------
+    t_no                      prod_name                 un                        quoted_value              detail                
+------------------------------------------------------------
+    1             tubelight     ramu          20000     
+    2             tables        shaan_cena    40000     
+    4             Cell          ramu          42000     
+    3             computer      ramu          450000    
+    4             Cell          vinod         100000    
+    7             beds          ramu          100000    
+------------------------------------------------------------
+Table name:master_product
+------------------------------------------------------------
+    product_id                product_name          
+------------------------------------------------------------
+    1         
+    2         
+    3         
+    4         
+    5         
+    6         
+    7         
+    8         
+    9         
+    10        
+    11        
+------------------------------------------------------------
+Table name:master_specification
+------------------------------------------------------------
+    product_id                s_name                    s_units               
+------------------------------------------------------------
+    1             RAM       
+    1             Hard Disk 
+    1             Processor 
+    2             length    
+    2             voltage   
+    3             Length    
+    3             Breadth   
+    4             master    
+    4             normal    
+    5             ghdfgh    
+    5             ghdfgh    
+    6             company   
+    6             model     
+    6             battery   
+    7             model     
+    8             low       
+    8             high      
+    9             low       
+    9             high      
+    10            length    
+    10            width     
+    11                      
+    11                      
+    11                      
+    11                      
+    11                      
+    11                      
+------------------------------------------------------------
+Table name:query_table
+------------------------------------------------------------
+    t_no                      prod_name                 query                     answer                
+------------------------------------------------------------
+    1             White Board    Should we manually install the products?
+    2             tables        yes.. i have a query
+    4             Cell          ihgfhfjhg 
+    3             computer                
+    4             Cell          i wil give piece 100 rs/-
+    7             beds          i will give beds in feets
+    7             beds          100000    
+------------------------------------------------------------
+Table name:suppliers
+------------------------------------------------------------
+    un                        pwd                       company                   address                   contact               
+------------------------------------------------------------
+    ramu          hello         Jindal        hyderabad 
+    vijay         samsung       tatasi        kurnool   
+    shaan_cena    shravan       coign         adress    
+    nag           nag           satyam        nlr       
+    vinod         vinod         legend        nlr       
+    raji          raji          fjkld         dfjdkld   
+    rad           rad           dss           df        
+    rad           rad           dfs           fdsa      
+    rad1          rad           ds            fds       
+------------------------------------------------------------
+Table name:tender_specifications
+------------------------------------------------------------
+    t_no                      prod_name                 s_name                    s_value                   units                 
+------------------------------------------------------------
+    1             White Board    Length        10.0      
+    1             White Board    Breadth       5.0       
+    1             tubelight     length        10.0      
+    1             tubelight     voltage       40.0      
+    2             tables        master        10.0      
+    2             tables        normal        50.0      
+    3             tables        master        12.0      
+    3             tables        normal        13.0      
+    3             computer      RAM           256.0     
+    3             computer      Hard Disk     40.0      
+    3             computer      Processor     8.0       
+    5             nag           low           1.0       
+    5             nag           high          2.0       
+    6             college       low           10000.0   
+    6             college       high          200000.0  
+    7             beds          length        5.0       
+    7             beds          width         5.5       
+    8             computer      RAM           21.0      
+    8             computer      Hard Disk     5.0       
+    8             computer      Processor     5.0       
+------------------------------------------------------------
+Table name:tender_table
+------------------------------------------------------------
+    t_no                      prod_name                 quantity                  p_date                    c_date                
+------------------------------------------------------------
+    2             tables        40            11/4/2008 
+    3             tables        100           2/13/2009 
+    3             computer      300           2/13/2009 
+    4             Cell          100           2/13/2009 
+    5             nag           3             2/17/2009 
+    6             college       1             2/19/2009 
+    7             beds          1000          2/24/2009 
+    8             computer      21            2/24/2009 
+    1             White Board    100           10/18/2008
+    1             tubelight     300           10/18/2008
+------------------------------------------------------------

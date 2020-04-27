@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<migration>
+    <databank>
+        <source
+            driver="com.mysql.jdbc.Driver"
+            driverType="com.lakshya.MigrationJDBC"
+            password=""
+            quoted-names="false"
+            url="jdbc:mysql://localhost/idonatedb"
+            username="root"
+        >
+        </source>
+        <target
+            driver="sun.jdbc.odbc.JdbcOdbcDriver"
+            driverType="com.lakshya.MigrationJDBC"
+            password=""
+            quoted-names="false"
+            url="jdbc:odbc:adb"
+            username=""
+        >
+        </target>
+    </databank>
+    <steps>
+        <step
+            clear_target="true"
+            name="blodgroup"
+            output="file"
+            slice_key=""
+            slice_size="100"
+            sliced="false"
+            source_table="blodgroup"
+            target_table="blodgroup"
+        >
+            <field from="bloodgroup" to="bloodgroup" type="string" value=""/>
+        </step>
+    </steps>
+</migration>

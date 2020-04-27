@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<migration>
+    <databank>
+        <source
+            driver="com.mysql.jdbc.Driver"
+            driverType="com.lakshya.MigrationJDBC"
+            password=""
+            quoted-names="false"
+            url="jdbc:mysql://localhost/sdb"
+            username="root"
+        >
+        </source>
+        <target
+            driver="sun.jdbc.odbc.JdbcOdbcDriver"
+            driverType="com.lakshya.MigrationJDBC"
+            password=""
+            quoted-names="false"
+            url="jdbc:odbc:adb"
+            username=""
+        >
+        </target>
+    </databank>
+    <steps>
+        <step
+            clear_target="true"
+            name=""
+            output="file"
+            slice_key=""
+            slice_size="100"
+            sliced="false"
+            source_table=""
+            target_table=""
+        >
+            <field from="username" to="username" type="string" value=""/>
+            <field from="mailid" to="mailid" type="string" value=""/>
+            <field from="info" to="info" type="string" value=""/>
+            <field from="T_NO" to="T_NO" type="bigdecimal" value=""/>
+            <field from="PROD_NAME" to="PROD_NAME" type="string" value=""/>
+            <field from="UN" to="UN" type="string" value=""/>
+            <field from="QUOTED_VALUE" to="QUOTED_VALUE" type="bigdecimal" value=""/>
+            <field from="DETAIL" to="DETAIL" type="string" value=""/>
+            <field from="bloodgroup" to="bloodgroup" type="string" value=""/>
+            <field from="userid" to="userid" type="integer" value=""/>
+            <field from="bloodgroup" to="bloodgroup" type="string" value=""/>
+            <field from="qty" to="qty" type="integer" value=""/>
+            <field from="username" to="username" type="string" value=""/>
+            <field from="name" to="name" type="string" value=""/>
+            <field from="mailid" to="mailid" type="string" value=""/>
+            <field from="info" to="info" type="string" value=""/>
+            <field from="dateofsend" to="dateofsend" type="timestamp" value=""/>
+            <field from="bloodbankid" to="bloodbankid" type="integer" value=""/>
+            <field from="bankname" to="bankname" type="string" value=""/>
+            <field from="district" to="district" type="string" value=""/>
+            <field from="city" to="city" type="string" value=""/>
+            <field from="address" to="address" type="string" value=""/>
+            <field from="phone" to="phone" type="string" value=""/>
+            <field from="email" to="email" type="string" value=""/>
+            <field from="userid" to="userid" type="integer" value=""/>
+            <field from="name" to="name" type="string" value=""/>
+            <field from="bloodgroup" to="bloodgroup" type="string" value=""/>
+            <field from="gender" to="gender" type="string" value=""/>
+            <field from="dob" to="dob" type="string" value=""/>
+            <field from="phone" to="phone" type="string" value=""/>
+            <field from="email" to="email" type="string" value=""/>
+            <field from="times_donated" to="times_donated" type="string" value=""/>
+            <field from="address" to="address" type="string" value=""/>
+            <field from="city" to="city" type="string" value=""/>
+            <field from="district" to="district" type="string" value=""/>
+            <field from="last_donated" to="last_donated" type="string" value=""/>
+            <field from="availability" to="availability" type="string" value=""/>
+            <field from="PRODUCT_ID" to="PRODUCT_ID" type="bigdecimal" value=""/>
+            <field from="PRODUCT_NAME" to="PRODUCT_NAME" type="string" value=""/>
+            <field from="PRODUCT_ID" to="PRODUCT_ID" type="bigdecimal" value=""/>
+            <field from="S_NAME" to="S_NAME" type="string" value=""/>
+            <field from="S_UNITS" to="S_UNITS" type="string" value=""/>
+            <field from="userid" to="userid" type="integer" value=""/>
+            <field from="name" to="name" type="string" value=""/>
+            <field from="specialization" to="specialization" type="string" value=""/>
+            <field from="office" to="office" type="string" value=""/>
+            <field from="hospitalname" to="hospitalname" type="string" value=""/>
+            <field from="T_NO" to="T_NO" type="bigdecimal" value=""/>
+            <field from="PROD_NAME" to="PROD_NAME" type="string" value=""/>
+            <field from="QUERY" to="QUERY" type="string" value=""/>
+            <field from="ANSWER" to="ANSWER" type="string" value=""/>
+            <field from="ID" to="ID" type="integer" value=""/>
+            <field from="username" to="username" type="string" value=""/>
+            <field from="password" to="password" type="string" value=""/>
+            <field from="phonenumber" to="phonenumber" type="string" value=""/>
+            <field from="address" to="address" type="string" value=""/>
+            <field from="dateofbirth" to="dateofbirth" type="string" value=""/>
+            <field from="UN" to="UN" type="string" value=""/>
+            <field from="PWD" to="PWD" type="string" value=""/>
+            <field from="COMPANY" to="COMPANY" type="string" value=""/>
+            <field from="ADDRESS" to="ADDRESS" type="string" value=""/>
+            <field from="CONTACT" to="CONTACT" type="string" value=""/>
+            <field from="T_NO" to="T_NO" type="bigdecimal" value=""/>
+            <field from="PROD_NAME" to="PROD_NAME" type="string" value=""/>
+            <field from="QUANTITY" to="QUANTITY" type="bigdecimal" value=""/>
+            <field from="P_DATE" to="P_DATE" type="string" value=""/>
+            <field from="C_DATE" to="C_DATE" type="string" value=""/>
+        </step>
+    </steps>
+</migration>

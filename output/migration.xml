@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<migration>
+    <databank>
+        <source
+            driver="sun.jdbc.odbc.JdbcOdbcDriver"
+            driverType="com.lakshya.MigrationJDBC"
+            password="root"
+            quoted-names="false"
+            url="jdbc:odbc:oracle"
+            username="system"
+        >
+        </source>
+        <target
+            driver="com.mysql.jdbc.Driver"
+            driverType="com.lakshya.MigrationJDBC"
+            password=""
+            quoted-names="false"
+            url="jdbc:mysql://localhost/cross"
+            username="root"
+        >
+        </target>
+    </databank>
+    <steps>
+        <step
+            clear_target="true"
+            name="SRAVAN"
+            output="file"
+            slice_key=""
+            slice_size="100"
+            sliced="false"
+            source_table="SRAVAN"
+            target_table="SRAVAN"
+        >
+            <field from="ID" to="ID" type="string" value=""/>
+            <field from="PASSWORD" to="PASSWORD" type="string" value=""/>
+        </step>
+    </steps>
+</migration>

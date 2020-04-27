@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<migration>
+    <databank>
+        <source
+            driver="com.mysql.jdbc.Driver"
+            driverType="com.lakshya.MigrationJDBC"
+            password=""
+            quoted-names="false"
+            url="jdbc:mysql://localhost/sdb"
+            username="root"
+        >
+        </source>
+        <target
+            driver="sun.jdbc.odbc.JdbcOdbcDriver"
+            driverType="com.lakshya.MigrationJDBC"
+            password=""
+            quoted-names="false"
+            url="jdbc:odbc:adb"
+            username=""
+        >
+        </target>
+    </databank>
+    <steps>
+        <step
+            clear_target="true"
+            name="contacts"
+            output="file"
+            slice_key=""
+            slice_size="100"
+            sliced="false"
+            source_table="contacts"
+            target_table="contacts"
+        >
+            <field from="username" to="username" type="string" value=""/>
+            <field from="name" to="name" type="string" value=""/>
+            <field from="mailid" to="mailid" type="string" value=""/>
+            <field from="info" to="info" type="string" value=""/>
+            <field from="dateofsend" to="dateofsend" type="timestamp" value=""/>
+        </step>
+    </steps>
+</migration>
